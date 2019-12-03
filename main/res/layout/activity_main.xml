@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#086A87"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/id_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dip"
+
+        />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:hint="              pesel              "
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:maxLength="11"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:digits="0123456789"
+        android:inputType="phone"
+        android:background="#0B173B"
+        android:layout_marginTop="60dp"
+        android:id="@+id/epesel"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="140dp"
+        android:id="@+id/ecukier"
+        android:hint="        cukier       "
+        android:fontFamily="casual"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:background="#0B173B"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="140dp"
+
+        android:hint=" mg/dL "
+        android:fontFamily="casual"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:background="#0B173B"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="Cisnienie:"
+        android:layout_marginTop="180dp"
+        android:fontFamily="casual"
+        android:inputType="phone"
+        android:textSize="25dp"
+        />/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:background="#0B173B"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint=" skurczowe "
+        android:layout_marginTop="220dp"
+        android:fontFamily="casual"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:textSize="20dp"
+        android:id="@+id/eskurczowe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="/"
+        android:layout_marginTop="210dp"
+        android:fontFamily="casual"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:textSize="35dp"
+      />
+
+    <EditText
+        android:id="@+id/erozkurczowe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="220dp"
+        android:background="#0B173B"
+        android:digits="0123456789"
+        android:fontFamily="casual"
+        android:hint=" rozkurczowe "
+        android:inputType="phone"
+        android:maxLength="3"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="220dp"
+        android:background="#0B173B"
+        android:digits="0123456789"
+        android:fontFamily="casual"
+        android:hint="mmHg"
+        android:inputType="phone"
+        android:maxLength="3"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="casual"
+        android:background="#0B173B"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="          nazwa leku          "
+        android:textSize="25dp"
+        android:id="@+id/enazwaleku"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:background="#0B173B"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="       dawka       "
+        android:id="@+id/edawkaleku"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:background="#0B173B"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="   mg   "
+       />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="450dp"
+        android:textSize="20dp"
+        android:background="#FFFFFF"
+        android:fontFamily="casual"
+        android:text="     Wyslij do lekarza    "
+        android:textColor="#0B4C5F" />
+
+
+
+</RelativeLayout>
