@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#088A85"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wpisz numer pesel: "
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:hint=" tutaj wpisz pesel "
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:maxLength="11"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:digits="0123456789"
+        android:inputType="phone"
+        android:background="#0B4C5F"
+        android:layout_marginTop="60dp"
+        android:id="@+id/epesel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wpisz cukier:  "
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="140dp"
+        android:id="@+id/ecukier"
+        android:hint=" cukier "
+        android:fontFamily="casual"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:background="#0B4C5F"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mg/dL "
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="140dp"
+        android:textSize="25dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wpisz cisnienie: "
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="180dp"
+        android:textSize="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="19dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="210dp"
+        android:fontFamily="casual"
+        android:text="/"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="#0B4C5F"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="skurczowe"
+        android:layout_marginTop="220dp"
+        android:fontFamily="casual"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:textSize="20dp"
+        android:id="@+id/eskurczowe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mm Hg "
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="220dp"
+        android:textSize="20dp"
+        />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="casual"
+        android:background="#0B4C5F"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="rozkurczowe"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:textSize="20dp"
+        android:id="@+id/erozkurczowe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nazwa przyjetego leku: "
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="260dp"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="casual"
+        android:background="#0B4C5F"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint=" nazwa leku "
+        android:textSize="25dp"
+        android:id="@+id/enazwaleku"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dawka przyjetego leku: "
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="340dp"
+        android:textSize="25dp"
+
+        />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="phone"
+        android:background="#0B4C5F"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint=" dawka "
+        android:id="@+id/edawkaleku"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mg"
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="380dp"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/dodaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:textSize="20dp"
+        android:background="#FFFFFF"
+        android:fontFamily="casual"
+        android:text="Wyslij do lekarza"
+        android:textColor="#0B4C5F" />
+
+    <Button
+        android:id="@+id/pobierz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zobacz historie"
+        android:background="#FFFFFF"
+        android:textColor="#0B4C5F"
+        android:fontFamily="casual"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="450dp" />
+
+</RelativeLayout>
